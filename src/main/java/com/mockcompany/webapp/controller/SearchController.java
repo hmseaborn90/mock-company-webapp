@@ -61,5 +61,8 @@ public class SearchController {
     public Collection<ProductItem> search(@RequestParam("query") String query) {
         // Implementation of method was moved to service, delegate query to the service now
         return this.searchService.search(query);
+
+        //comment
+
     }
 }
